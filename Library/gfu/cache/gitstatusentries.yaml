@@ -1,0 +1,156 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 995438498, guid: 68c7e4565cde54155bb78d8e935f1ddb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cacheType: 6
+  lastUpdatedAtString: 2022-11-02T22:52:55.619+01:00
+  initializedAtString: 2022-11-02T22:51:35.600+01:00
+  entries:
+  - path: Library\ArtifactDB
+    fullPath: C:\Users\timon\Desktop\Coding_files\Gamers Hill\Library\ArtifactDB
+    projectPath: Library\ArtifactDB
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\backend_profiler0.traceevents
+    fullPath: C:\Users\timon\Desktop\Coding_files\Gamers Hill\Library\Bee\backend_profiler0.traceevents
+    projectPath: Library\Bee\backend_profiler0.traceevents
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\fullprofile.json
+    fullPath: C:\Users\timon\Desktop\Coding_files\Gamers Hill\Library\Bee\fullprofile.json
+    projectPath: Library\Bee\fullprofile.json
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\tundra.digestcache
+    fullPath: C:\Users\timon\Desktop\Coding_files\Gamers Hill\Library\Bee\tundra.digestcache
+    projectPath: Library\Bee\tundra.digestcache
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\com.unity.ide.rider\PersistedState.asset
+    fullPath: C:\Users\timon\Desktop\Coding_files\Gamers Hill\Library\com.unity.ide.rider\PersistedState.asset
+    projectPath: Library\com.unity.ide.rider\PersistedState.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\EditorInstance.json
+    fullPath: C:\Users\timon\Desktop\Coding_files\Gamers Hill\Library\EditorInstance.json
+    projectPath: Library\EditorInstance.json
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\gfu\cache\gitlocks.yaml
+    fullPath: C:\Users\timon\Desktop\Coding_files\Gamers Hill\Library\gfu\cache\gitlocks.yaml
+    projectPath: Library\gfu\cache\gitlocks.yaml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\gfu\cache\gitstatusentries.yaml
+    fullPath: C:\Users\timon\Desktop\Coding_files\Gamers Hill\Library\gfu\cache\gitstatusentries.yaml
+    projectPath: Library\gfu\cache\gitstatusentries.yaml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\gfu\cache\gittrackingstatus.yaml
+    fullPath: C:\Users\timon\Desktop\Coding_files\Gamers Hill\Library\gfu\cache\gittrackingstatus.yaml
+    projectPath: Library\gfu\cache\gittrackingstatus.yaml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\gfu\cache\repoinfo.yaml
+    fullPath: C:\Users\timon\Desktop\Coding_files\Gamers Hill\Library\gfu\cache\repoinfo.yaml
+    projectPath: Library\gfu\cache\repoinfo.yaml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ProtocolInstance.json
+    fullPath: C:\Users\timon\Desktop\Coding_files\Gamers Hill\Library\ProtocolInstance.json
+    projectPath: Library\ProtocolInstance.json
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\SourceAssetDB
+    fullPath: C:\Users\timon\Desktop\Coding_files\Gamers Hill\Library\SourceAssetDB
+    projectPath: Library\SourceAssetDB
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Logs\AssetImportWorker0.log
+    fullPath: C:\Users\timon\Desktop\Coding_files\Gamers Hill\Logs\AssetImportWorker0.log
+    projectPath: Logs\AssetImportWorker0.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Logs\AssetImportWorker0-prev.log
+    fullPath: C:\Users\timon\Desktop\Coding_files\Gamers Hill\Logs\AssetImportWorker0-prev.log
+    projectPath: Logs\AssetImportWorker0-prev.log
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Logs\AssetImportWorker1.log
+    fullPath: C:\Users\timon\Desktop\Coding_files\Gamers Hill\Logs\AssetImportWorker1.log
+    projectPath: Logs\AssetImportWorker1.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Logs\AssetImportWorker1-prev.log
+    fullPath: C:\Users\timon\Desktop\Coding_files\Gamers Hill\Logs\AssetImportWorker1-prev.log
+    projectPath: Logs\AssetImportWorker1-prev.log
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Logs\shadercompiler-AssetImportWorker0.log
+    fullPath: C:\Users\timon\Desktop\Coding_files\Gamers Hill\Logs\shadercompiler-AssetImportWorker0.log
+    projectPath: Logs\shadercompiler-AssetImportWorker0.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Logs\shadercompiler-UnityShaderCompiler.exe0.log
+    fullPath: C:\Users\timon\Desktop\Coding_files\Gamers Hill\Logs\shadercompiler-UnityShaderCompiler.exe0.log
+    projectPath: Logs\shadercompiler-UnityShaderCompiler.exe0.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp\FSTimeGet-4ee48f03f226f564f8e39283f8a9ee7d
+    fullPath: C:\Users\timon\Desktop\Coding_files\Gamers Hill\Temp\FSTimeGet-4ee48f03f226f564f8e39283f8a9ee7d
+    projectPath: Temp\FSTimeGet-4ee48f03f226f564f8e39283f8a9ee7d
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\PropertyDatabase_1265138678
+    fullPath: C:\Users\timon\Desktop\Coding_files\Gamers Hill\Temp\PropertyDatabase_1265138678
+    projectPath: Temp\PropertyDatabase_1265138678
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\PropertyDatabase_2066312223
+    fullPath: C:\Users\timon\Desktop\Coding_files\Gamers Hill\Temp\PropertyDatabase_2066312223
+    projectPath: Temp\PropertyDatabase_2066312223
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityLockfile
+    fullPath: C:\Users\timon\Desktop\Coding_files\Gamers Hill\Temp\UnityLockfile
+    projectPath: Temp\UnityLockfile
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\workerlic
+    fullPath: C:\Users\timon\Desktop\Coding_files\Gamers Hill\Temp\workerlic
+    projectPath: Temp\workerlic
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
