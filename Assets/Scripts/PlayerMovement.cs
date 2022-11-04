@@ -2,38 +2,50 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Net.Http.Headers;
+using UnityEditor;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
+    [Header("Object References")]
     public CharacterController controller;
     public new Camera camera;
+    public StatsManager statsManager;
+    [Space(10)]
+    [Header("Movement")]
+    public float gravity = -9.81f;
+    public float dpi = 5; 
+    public float moveSpeed = 5f;
+   
     // Start is called before the first frame update
     void Start()
     {
      Cursor.lockState = CursorLockMode.Locked;
      Cursor.visible = false;
     }
-    float xRotation = 0f;
+    
+
+    float _xRotation;
     // Update is called once per frame
     void Update()
     {
         float moveX = Input.GetAxis("Horizontal");
         float moveY = Input.GetAxis("Vertical");
         
-        float mouseX = Input.GetAxis("Mouse X") * 5f;
-        float mouseY = Input.GetAxis("Mouse Y") * 5f;
+        float mouseX = Input.GetAxis("Mouse X") * dpi;
+        float mouseY = Input.GetAxis("Mouse Y") * dpi;
 
       
-        xRotation -= mouseY;
-        xRotation = Mathf.Clamp(xRotation, -90f, 90f);
+        _xRotation -= mouseY;
+        _xRotation = Mathf.Clamp(_xRotation, -90f, 90f);
         Vector3 move = transform.right * moveX + transform.forward * moveY;
 
-        controller.Move(move * (Time.deltaTime * 5f));
+        controller.attachedRigidbody.AddForce(0,gravity,0);
+        controller.Move(move * (Time.deltaTime * moveSpeed * statsManager.speedMultiplier));
         controller.transform.Rotate(Vector3.up * (mouseX));
        
         Quaternion rotation = controller.transform.rotation;
-        camera.transform.rotation = (Quaternion.Euler(xRotation, rotation.y * 100, rotation.z * 100));
+        camera.transform.rotation = (Quaternion.Euler(_xRotation, rotation.y * 100, rotation.z * 100));
 
         
     }
