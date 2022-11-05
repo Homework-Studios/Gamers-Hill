@@ -13,8 +13,7 @@ public class PlayerMovement : MonoBehaviour
     public StatsManager statsManager;
     [Space(10)]
     [Header("Movement")]
-    public float gravity = -9.81f;
-    public float dpi = 5; 
+    public float dpi = 100; 
     public float moveSpeed = 5f;
    
     // Start is called before the first frame update
@@ -32,20 +31,19 @@ public class PlayerMovement : MonoBehaviour
         float moveX = Input.GetAxis("Horizontal");
         float moveY = Input.GetAxis("Vertical");
         
-        float mouseX = Input.GetAxis("Mouse X") * dpi;
-        float mouseY = Input.GetAxis("Mouse Y") * dpi;
+        float mouseX = Input.GetAxis("Mouse X") * dpi * Time.deltaTime;
+        float mouseY = Input.GetAxis("Mouse Y") * dpi * Time.deltaTime;
 
       
         _xRotation -= mouseY;
         _xRotation = Mathf.Clamp(_xRotation, -90f, 90f);
         Vector3 move = transform.right * moveX + transform.forward * moveY;
-
-        controller.attachedRigidbody.AddForce(0,gravity,0);
+        
         controller.Move(move * (Time.deltaTime * moveSpeed * statsManager.speedMultiplier));
         controller.transform.Rotate(Vector3.up * (mouseX));
        
-        Quaternion rotation = controller.transform.rotation;
-        camera.transform.rotation = (Quaternion.Euler(_xRotation, rotation.y * 100, rotation.z * 100));
+        Quaternion rotation = controller.transform.rotation.normalized;
+        camera.transform.rotation = (Quaternion.Euler(_xRotation, rotation.eulerAngles.y, rotation.eulerAngles.z));
 
         
     }
