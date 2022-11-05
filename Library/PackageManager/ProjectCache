@@ -1,33 +1,33 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: C:/Users/timon/Desktop/Coding_files/Gamers Hill/Packages/manifest.json
+    m_FilePath: E:/coding/c#/unity/Gamers-Hill/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638032061910785919
-    m_Hash: 4056250492
+      ticks: 638032588550036729
+    m_Hash: 2891438559
   m_LockFileStatus:
-    m_FilePath: C:/Users/timon/Desktop/Coding_files/Gamers Hill/Packages/packages-lock.json
+    m_FilePath: E:/coding/c#/unity/Gamers-Hill/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638032061911082151
-    m_Hash: 2928677891
+      ticks: 638032588996051945
+    m_Hash: 2324796788
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
-m_ProjectPath: C:/Users/timon/Desktop/Coding_files/Gamers Hill/Packages
-m_EditorVersion: 2021.3.7f1 (24e8595d6d43)
+m_ProjectPath: E:/coding/c#/unity/Gamers-Hill/Packages
+m_EditorVersion: 2021.3.12f1 (8af3c3e441b1)
 m_ResolvedPackages:
-- packageId: com.unity.collab-proxy@1.17.1
+- packageId: com.unity.collab-proxy@1.17.2
   testable: 0
   isDirectDependency: 1
-  version: 1.17.1
+  version: 1.17.2
   source: 1
-  resolvedPath: C:\Users\timon\Desktop\Coding_files\Gamers Hill\Library\PackageCache\com.unity.collab-proxy@1.17.1
+  resolvedPath: E:\coding\c#\unity\Gamers-Hill\Library\PackageCache\com.unity.collab-proxy@1.17.2
   assetPath: Packages/com.unity.collab-proxy
   name: com.unity.collab-proxy
   displayName: Version Control
@@ -36,7 +36,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: Editor
-  type: asset
+  type: 
   description: The Version Control package gives you the ability to use either Collaborate
     or Plastic SCM for Unity (beta) in the Unity editor. To use Plastic SCM for Unity
     (beta), a Plastic SCM subscription is required. Learn more about how you can
@@ -95,7 +95,6 @@ m_ResolvedPackages:
     - 1.17.0
     - 1.17.1
     - 1.17.2
-    - 1.17.6
     - 2.0.0-preview.6
     - 2.0.0-preview.8
     - 2.0.0-preview.15
@@ -107,9 +106,7 @@ m_ResolvedPackages:
     - 2.1.0-preview.5
     - 2.1.0-preview.6
     compatible:
-    - 1.17.1
     - 1.17.2
-    - 1.17.6
     - 2.0.0-preview.6
     - 2.0.0-preview.8
     - 2.0.0-preview.15
@@ -120,13 +117,13 @@ m_ResolvedPackages:
     - 2.1.0-preview.3
     - 2.1.0-preview.5
     - 2.1.0-preview.6
-    verified: 1.17.6
+    verified: 1.17.2
   dependencies:
   - name: com.unity.services.core
     version: 1.0.1
   resolvedDependencies:
   - name: com.unity.services.core
-    version: 1.4.2
+    version: 1.4.3
   - name: com.unity.modules.unitywebrequest
     version: 1.0.0
   - name: com.unity.nuget.newtonsoft-json
@@ -154,25 +151,25 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hideInEditor: 0
+  hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637916644700000000
+  datePublishedTicks: 0
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.cloud.collaborate.git
-    revision: 2346af88036ac7256d898e0bb536f60220ce6e18
+    revision: 14d129dcc778f8ea2fdf9d0240b47924e4f0dbb1
     path: 
   unityLifecycle:
-    version: 1.17.1
+    version: 1.17.2
     nextVersion: 
 - packageId: com.unity.feature.development@1.0.1
   testable: 0
   isDirectDependency: 1
   version: 1.0.1
   source: 2
-  resolvedPath: C:\Users\timon\Desktop\Coding_files\Gamers Hill\Library\PackageCache\com.unity.feature.development@1.0.1
+  resolvedPath: E:\coding\c#\unity\Gamers-Hill\Library\PackageCache\com.unity.feature.development@1.0.1
   assetPath: Packages/com.unity.feature.development
   name: com.unity.feature.development
   displayName: Engineering
@@ -258,7 +255,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 3.0.15
   source: 1
-  resolvedPath: C:\Users\timon\Desktop\Coding_files\Gamers Hill\Library\PackageCache\com.unity.ide.rider@3.0.15
+  resolvedPath: E:\coding\c#\unity\Gamers-Hill\Library\PackageCache\com.unity.ide.rider@3.0.15
   assetPath: Packages/com.unity.ide.rider
   name: com.unity.ide.rider
   displayName: JetBrains Rider Editor
@@ -267,7 +264,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: asset
+  type: 
   description: The JetBrains Rider Editor package provides an integration for using
     the JetBrains Rider IDE as a code editor for Unity. It adds support for generating
     .csproj files for code completion and auto-discovery of installations.
@@ -306,11 +303,9 @@ m_ResolvedPackages:
     - 3.0.13
     - 3.0.14
     - 3.0.15
-    - 3.0.16
     compatible:
     - 3.0.15
-    - 3.0.16
-    verified: 3.0.16
+    verified: 3.0.15
   dependencies:
   - name: com.unity.ext.nunit
     version: 1.0.6
@@ -325,7 +320,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hideInEditor: 0
+  hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 637914298700000000
   documentationUrl: 
@@ -343,7 +338,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.0.16
   source: 1
-  resolvedPath: C:\Users\timon\Desktop\Coding_files\Gamers Hill\Library\PackageCache\com.unity.ide.visualstudio@2.0.16
+  resolvedPath: E:\coding\c#\unity\Gamers-Hill\Library\PackageCache\com.unity.ide.visualstudio@2.0.16
   assetPath: Packages/com.unity.ide.visualstudio
   name: com.unity.ide.visualstudio
   displayName: Visual Studio Editor
@@ -420,7 +415,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.2.5
   source: 1
-  resolvedPath: C:\Users\timon\Desktop\Coding_files\Gamers Hill\Library\PackageCache\com.unity.ide.vscode@1.2.5
+  resolvedPath: E:\coding\c#\unity\Gamers-Hill\Library\PackageCache\com.unity.ide.vscode@1.2.5
   assetPath: Packages/com.unity.ide.vscode
   name: com.unity.ide.vscode
   displayName: Visual Studio Code Editor
@@ -476,142 +471,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.2.5
     nextVersion: 
-- packageId: com.unity.probuilder@5.0.6
-  testable: 0
-  isDirectDependency: 1
-  version: 5.0.6
-  source: 1
-  resolvedPath: C:\Users\timon\Desktop\Coding_files\Gamers Hill\Library\PackageCache\com.unity.probuilder@5.0.6
-  assetPath: Packages/com.unity.probuilder
-  name: com.unity.probuilder
-  displayName: ProBuilder
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: asset
-  description: 'Build, edit, and texture custom geometry in Unity. Use ProBuilder
-    for in-scene level design, prototyping, collision meshes, all with on-the-fly
-    play-testing.
-
-
-    Advanced features include UV editing, vertex colors, parametric
-    shapes, and texture blending. With ProBuilder''s model export feature it''s easy
-    to tweak your levels in any external 3D modelling suite.
-
-
-    If you are using
-    URP/HDRP, be careful to also import the corresponding sample project in the section
-    below to get the proper materials.'
-  status: 4
-  errors: []
-  versions:
-    all:
-    - 3.0.0
-    - 3.0.1
-    - 3.0.2
-    - 3.0.3
-    - 3.0.6
-    - 3.0.8
-    - 3.0.9
-    - 3.10.1
-    - 4.0.2
-    - 4.0.3
-    - 4.0.4
-    - 4.0.5
-    - 4.1.0
-    - 4.1.2
-    - 4.2.1
-    - 4.2.2-preview.1
-    - 4.2.2-preview.2
-    - 4.2.3
-    - 4.2.4-preview.0
-    - 4.3.0-preview.0
-    - 4.3.0-preview.1
-    - 4.3.0-preview.2
-    - 4.3.0-preview.4
-    - 4.3.0-preview.6
-    - 4.3.0-preview.7
-    - 4.3.0-preview.8
-    - 4.3.0-preview.9
-    - 4.3.1
-    - 4.4.0-preview.1
-    - 4.4.0
-    - 4.5.0
-    - 4.5.2
-    - 5.0.0-pre.7
-    - 5.0.0-pre.10
-    - 5.0.1
-    - 5.0.3
-    - 5.0.4
-    - 5.0.6
-    compatible:
-    - 5.0.3
-    - 5.0.4
-    - 5.0.6
-    verified: 5.0.6
-  dependencies:
-  - name: com.unity.settings-manager
-    version: 1.0.3
-  - name: com.unity.modules.physics
-    version: 1.0.0
-  - name: com.unity.modules.imgui
-    version: 1.0.0
-  resolvedDependencies:
-  - name: com.unity.settings-manager
-    version: 1.0.3
-  - name: com.unity.modules.physics
-    version: 1.0.0
-  - name: com.unity.modules.imgui
-    version: 1.0.0
-  keywords:
-  - 3d
-  - model
-  - mesh
-  - modeling
-  - geometry
-  - shape
-  - cube
-  - blender
-  - max
-  - maya
-  - fbx
-  - obj
-  - level
-  - design
-  - block
-  - greybox
-  - graybox
-  - whitebox
-  - prototype
-  - probuilder
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-  hideInEditor: 0
-  isAssetStorePackage: 0
-  datePublishedTicks: 637928847600000000
-  documentationUrl: 
-  hasRepository: 1
-  repository:
-    type: git
-    url: https://github.com/Unity-Technologies/com.unity.probuilder.git
-    revision: a2e0f7904211f195c1c7661cdbed49fdc4a4130d
-    path: 
-  unityLifecycle:
-    version: 5.0.3
-    nextVersion: 
 - packageId: com.unity.test-framework@1.1.31
   testable: 0
   isDirectDependency: 1
   version: 1.1.31
   source: 1
-  resolvedPath: C:\Users\timon\Desktop\Coding_files\Gamers Hill\Library\PackageCache\com.unity.test-framework@1.1.31
+  resolvedPath: E:\coding\c#\unity\Gamers-Hill\Library\PackageCache\com.unity.test-framework@1.1.31
   assetPath: Packages/com.unity.test-framework
   name: com.unity.test-framework
   displayName: Test Framework
@@ -620,7 +485,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: Unity Test Framework
-  type: asset
+  type: 
   description: Test framework for running Edit mode and Play mode tests in Unity.
   status: 4
   errors: []
@@ -659,19 +524,15 @@ m_ResolvedPackages:
     - 1.1.29
     - 1.1.30
     - 1.1.31
-    - 1.1.33
-    - 1.3.0
     - 2.0.1-exp.1
     - 2.0.1-pre.12
     - 2.0.1-pre.18
     compatible:
     - 1.1.31
-    - 1.1.33
-    - 1.3.0
     - 2.0.1-exp.1
     - 2.0.1-pre.12
     - 2.0.1-pre.18
-    verified: 1.1.33
+    verified: 1.1.31
   dependencies:
   - name: com.unity.ext.nunit
     version: 1.0.6
@@ -696,7 +557,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hideInEditor: 0
+  hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 637804266210000000
   documentationUrl: 
@@ -714,7 +575,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 3.0.6
   source: 1
-  resolvedPath: C:\Users\timon\Desktop\Coding_files\Gamers Hill\Library\PackageCache\com.unity.textmeshpro@3.0.6
+  resolvedPath: E:\coding\c#\unity\Gamers-Hill\Library\PackageCache\com.unity.textmeshpro@3.0.6
   assetPath: Packages/com.unity.textmeshpro
   name: com.unity.textmeshpro
   displayName: TextMeshPro
@@ -879,7 +740,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.6.4
   source: 1
-  resolvedPath: C:\Users\timon\Desktop\Coding_files\Gamers Hill\Library\PackageCache\com.unity.timeline@1.6.4
+  resolvedPath: E:\coding\c#\unity\Gamers-Hill\Library\PackageCache\com.unity.timeline@1.6.4
   assetPath: Packages/com.unity.timeline
   name: com.unity.timeline
   displayName: Timeline
@@ -888,7 +749,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: asset
+  type: 
   description: Use Unity Timeline to create cinematic content, game-play sequences,
     audio sequences, and complex particle effects.
   status: 4
@@ -967,14 +828,12 @@ m_ResolvedPackages:
     - 1.7.0-pre.2
     - 1.7.0
     - 1.7.1
-    - 1.7.2
     compatible:
     - 1.6.4
     - 1.7.0-pre.1
     - 1.7.0-pre.2
     - 1.7.0
     - 1.7.1
-    - 1.7.2
     verified: 1.6.4
   dependencies:
   - name: com.unity.modules.director
@@ -1007,7 +866,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hideInEditor: 0
+  hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 637789039180000000
   documentationUrl: 
@@ -1025,7 +884,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\timon\Desktop\Coding_files\Gamers Hill\Library\PackageCache\com.unity.ugui@1.0.0
+  resolvedPath: E:\coding\c#\unity\Gamers-Hill\Library\PackageCache\com.unity.ugui@1.0.0
   assetPath: Packages/com.unity.ugui
   name: com.unity.ugui
   displayName: Unity UI
@@ -1087,7 +946,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.7.8
   source: 1
-  resolvedPath: C:\Users\timon\Desktop\Coding_files\Gamers Hill\Library\PackageCache\com.unity.visualscripting@1.7.8
+  resolvedPath: E:\coding\c#\unity\Gamers-Hill\Library\PackageCache\com.unity.visualscripting@1.7.8
   assetPath: Packages/com.unity.visualscripting
   name: com.unity.visualscripting
   displayName: Visual Scripting
@@ -1172,7 +1031,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\timon\Desktop\Coding_files\Gamers Hill\Library\PackageCache\com.unity.modules.ai@1.0.0
+  resolvedPath: E:\coding\c#\unity\Gamers-Hill\Library\PackageCache\com.unity.modules.ai@1.0.0
   assetPath: Packages/com.unity.modules.ai
   name: com.unity.modules.ai
   displayName: AI
@@ -1220,7 +1079,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\timon\Desktop\Coding_files\Gamers Hill\Library\PackageCache\com.unity.modules.androidjni@1.0.0
+  resolvedPath: E:\coding\c#\unity\Gamers-Hill\Library\PackageCache\com.unity.modules.androidjni@1.0.0
   assetPath: Packages/com.unity.modules.androidjni
   name: com.unity.modules.androidjni
   displayName: Android JNI
@@ -1267,7 +1126,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\timon\Desktop\Coding_files\Gamers Hill\Library\PackageCache\com.unity.modules.animation@1.0.0
+  resolvedPath: E:\coding\c#\unity\Gamers-Hill\Library\PackageCache\com.unity.modules.animation@1.0.0
   assetPath: Packages/com.unity.modules.animation
   name: com.unity.modules.animation
   displayName: Animation
@@ -1315,7 +1174,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\timon\Desktop\Coding_files\Gamers Hill\Library\PackageCache\com.unity.modules.assetbundle@1.0.0
+  resolvedPath: E:\coding\c#\unity\Gamers-Hill\Library\PackageCache\com.unity.modules.assetbundle@1.0.0
   assetPath: Packages/com.unity.modules.assetbundle
   name: com.unity.modules.assetbundle
   displayName: Asset Bundle
@@ -1363,7 +1222,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\timon\Desktop\Coding_files\Gamers Hill\Library\PackageCache\com.unity.modules.audio@1.0.0
+  resolvedPath: E:\coding\c#\unity\Gamers-Hill\Library\PackageCache\com.unity.modules.audio@1.0.0
   assetPath: Packages/com.unity.modules.audio
   name: com.unity.modules.audio
   displayName: Audio
@@ -1411,7 +1270,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\timon\Desktop\Coding_files\Gamers Hill\Library\PackageCache\com.unity.modules.cloth@1.0.0
+  resolvedPath: E:\coding\c#\unity\Gamers-Hill\Library\PackageCache\com.unity.modules.cloth@1.0.0
   assetPath: Packages/com.unity.modules.cloth
   name: com.unity.modules.cloth
   displayName: Cloth
@@ -1463,7 +1322,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\timon\Desktop\Coding_files\Gamers Hill\Library\PackageCache\com.unity.modules.director@1.0.0
+  resolvedPath: E:\coding\c#\unity\Gamers-Hill\Library\PackageCache\com.unity.modules.director@1.0.0
   assetPath: Packages/com.unity.modules.director
   name: com.unity.modules.director
   displayName: Director
@@ -1519,7 +1378,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\timon\Desktop\Coding_files\Gamers Hill\Library\PackageCache\com.unity.modules.imageconversion@1.0.0
+  resolvedPath: E:\coding\c#\unity\Gamers-Hill\Library\PackageCache\com.unity.modules.imageconversion@1.0.0
   assetPath: Packages/com.unity.modules.imageconversion
   name: com.unity.modules.imageconversion
   displayName: Image Conversion
@@ -1568,7 +1427,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\timon\Desktop\Coding_files\Gamers Hill\Library\PackageCache\com.unity.modules.imgui@1.0.0
+  resolvedPath: E:\coding\c#\unity\Gamers-Hill\Library\PackageCache\com.unity.modules.imgui@1.0.0
   assetPath: Packages/com.unity.modules.imgui
   name: com.unity.modules.imgui
   displayName: IMGUI
@@ -1616,7 +1475,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\timon\Desktop\Coding_files\Gamers Hill\Library\PackageCache\com.unity.modules.jsonserialize@1.0.0
+  resolvedPath: E:\coding\c#\unity\Gamers-Hill\Library\PackageCache\com.unity.modules.jsonserialize@1.0.0
   assetPath: Packages/com.unity.modules.jsonserialize
   name: com.unity.modules.jsonserialize
   displayName: JSONSerialize
@@ -1664,7 +1523,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\timon\Desktop\Coding_files\Gamers Hill\Library\PackageCache\com.unity.modules.particlesystem@1.0.0
+  resolvedPath: E:\coding\c#\unity\Gamers-Hill\Library\PackageCache\com.unity.modules.particlesystem@1.0.0
   assetPath: Packages/com.unity.modules.particlesystem
   name: com.unity.modules.particlesystem
   displayName: Particle System
@@ -1712,7 +1571,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\timon\Desktop\Coding_files\Gamers Hill\Library\PackageCache\com.unity.modules.physics@1.0.0
+  resolvedPath: E:\coding\c#\unity\Gamers-Hill\Library\PackageCache\com.unity.modules.physics@1.0.0
   assetPath: Packages/com.unity.modules.physics
   name: com.unity.modules.physics
   displayName: Physics
@@ -1760,7 +1619,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\timon\Desktop\Coding_files\Gamers Hill\Library\PackageCache\com.unity.modules.physics2d@1.0.0
+  resolvedPath: E:\coding\c#\unity\Gamers-Hill\Library\PackageCache\com.unity.modules.physics2d@1.0.0
   assetPath: Packages/com.unity.modules.physics2d
   name: com.unity.modules.physics2d
   displayName: Physics 2D
@@ -1808,7 +1667,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\timon\Desktop\Coding_files\Gamers Hill\Library\PackageCache\com.unity.modules.screencapture@1.0.0
+  resolvedPath: E:\coding\c#\unity\Gamers-Hill\Library\PackageCache\com.unity.modules.screencapture@1.0.0
   assetPath: Packages/com.unity.modules.screencapture
   name: com.unity.modules.screencapture
   displayName: Screen Capture
@@ -1860,7 +1719,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\timon\Desktop\Coding_files\Gamers Hill\Library\PackageCache\com.unity.modules.terrain@1.0.0
+  resolvedPath: E:\coding\c#\unity\Gamers-Hill\Library\PackageCache\com.unity.modules.terrain@1.0.0
   assetPath: Packages/com.unity.modules.terrain
   name: com.unity.modules.terrain
   displayName: Terrain
@@ -1908,7 +1767,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\timon\Desktop\Coding_files\Gamers Hill\Library\PackageCache\com.unity.modules.terrainphysics@1.0.0
+  resolvedPath: E:\coding\c#\unity\Gamers-Hill\Library\PackageCache\com.unity.modules.terrainphysics@1.0.0
   assetPath: Packages/com.unity.modules.terrainphysics
   name: com.unity.modules.terrainphysics
   displayName: Terrain Physics
@@ -1964,7 +1823,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\timon\Desktop\Coding_files\Gamers Hill\Library\PackageCache\com.unity.modules.tilemap@1.0.0
+  resolvedPath: E:\coding\c#\unity\Gamers-Hill\Library\PackageCache\com.unity.modules.tilemap@1.0.0
   assetPath: Packages/com.unity.modules.tilemap
   name: com.unity.modules.tilemap
   displayName: Tilemap
@@ -2015,7 +1874,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\timon\Desktop\Coding_files\Gamers Hill\Library\PackageCache\com.unity.modules.ui@1.0.0
+  resolvedPath: E:\coding\c#\unity\Gamers-Hill\Library\PackageCache\com.unity.modules.ui@1.0.0
   assetPath: Packages/com.unity.modules.ui
   name: com.unity.modules.ui
   displayName: UI
@@ -2063,7 +1922,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\timon\Desktop\Coding_files\Gamers Hill\Library\PackageCache\com.unity.modules.uielements@1.0.0
+  resolvedPath: E:\coding\c#\unity\Gamers-Hill\Library\PackageCache\com.unity.modules.uielements@1.0.0
   assetPath: Packages/com.unity.modules.uielements
   name: com.unity.modules.uielements
   displayName: UIElements
@@ -2127,7 +1986,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\timon\Desktop\Coding_files\Gamers Hill\Library\PackageCache\com.unity.modules.umbra@1.0.0
+  resolvedPath: E:\coding\c#\unity\Gamers-Hill\Library\PackageCache\com.unity.modules.umbra@1.0.0
   assetPath: Packages/com.unity.modules.umbra
   name: com.unity.modules.umbra
   displayName: Umbra
@@ -2175,7 +2034,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\timon\Desktop\Coding_files\Gamers Hill\Library\PackageCache\com.unity.modules.unityanalytics@1.0.0
+  resolvedPath: E:\coding\c#\unity\Gamers-Hill\Library\PackageCache\com.unity.modules.unityanalytics@1.0.0
   assetPath: Packages/com.unity.modules.unityanalytics
   name: com.unity.modules.unityanalytics
   displayName: Unity Analytics
@@ -2231,7 +2090,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\timon\Desktop\Coding_files\Gamers Hill\Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0
+  resolvedPath: E:\coding\c#\unity\Gamers-Hill\Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequest
   name: com.unity.modules.unitywebrequest
   displayName: Unity Web Request
@@ -2279,7 +2138,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\timon\Desktop\Coding_files\Gamers Hill\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0
+  resolvedPath: E:\coding\c#\unity\Gamers-Hill\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequestassetbundle
   name: com.unity.modules.unitywebrequestassetbundle
   displayName: Unity Web Request Asset Bundle
@@ -2335,7 +2194,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\timon\Desktop\Coding_files\Gamers Hill\Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0
+  resolvedPath: E:\coding\c#\unity\Gamers-Hill\Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequestaudio
   name: com.unity.modules.unitywebrequestaudio
   displayName: Unity Web Request Audio
@@ -2391,7 +2250,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\timon\Desktop\Coding_files\Gamers Hill\Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0
+  resolvedPath: E:\coding\c#\unity\Gamers-Hill\Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequesttexture
   name: com.unity.modules.unitywebrequesttexture
   displayName: Unity Web Request Texture
@@ -2447,7 +2306,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\timon\Desktop\Coding_files\Gamers Hill\Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0
+  resolvedPath: E:\coding\c#\unity\Gamers-Hill\Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequestwww
   name: com.unity.modules.unitywebrequestwww
   displayName: Unity Web Request WWW
@@ -2519,7 +2378,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\timon\Desktop\Coding_files\Gamers Hill\Library\PackageCache\com.unity.modules.vehicles@1.0.0
+  resolvedPath: E:\coding\c#\unity\Gamers-Hill\Library\PackageCache\com.unity.modules.vehicles@1.0.0
   assetPath: Packages/com.unity.modules.vehicles
   name: com.unity.modules.vehicles
   displayName: Vehicles
@@ -2571,7 +2430,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\timon\Desktop\Coding_files\Gamers Hill\Library\PackageCache\com.unity.modules.video@1.0.0
+  resolvedPath: E:\coding\c#\unity\Gamers-Hill\Library\PackageCache\com.unity.modules.video@1.0.0
   assetPath: Packages/com.unity.modules.video
   name: com.unity.modules.video
   displayName: Video
@@ -2631,7 +2490,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\timon\Desktop\Coding_files\Gamers Hill\Library\PackageCache\com.unity.modules.vr@1.0.0
+  resolvedPath: E:\coding\c#\unity\Gamers-Hill\Library\PackageCache\com.unity.modules.vr@1.0.0
   assetPath: Packages/com.unity.modules.vr
   name: com.unity.modules.vr
   displayName: VR
@@ -2693,7 +2552,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\timon\Desktop\Coding_files\Gamers Hill\Library\PackageCache\com.unity.modules.wind@1.0.0
+  resolvedPath: E:\coding\c#\unity\Gamers-Hill\Library\PackageCache\com.unity.modules.wind@1.0.0
   assetPath: Packages/com.unity.modules.wind
   name: com.unity.modules.wind
   displayName: Wind
@@ -2741,7 +2600,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\timon\Desktop\Coding_files\Gamers Hill\Library\PackageCache\com.unity.modules.xr@1.0.0
+  resolvedPath: E:\coding\c#\unity\Gamers-Hill\Library\PackageCache\com.unity.modules.xr@1.0.0
   assetPath: Packages/com.unity.modules.xr
   name: com.unity.modules.xr
   displayName: XR
@@ -2801,7 +2660,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\timon\Desktop\Coding_files\Gamers Hill\Library\PackageCache\com.unity.modules.subsystems@1.0.0
+  resolvedPath: E:\coding\c#\unity\Gamers-Hill\Library\PackageCache\com.unity.modules.subsystems@1.0.0
   assetPath: Packages/com.unity.modules.subsystems
   name: com.unity.modules.subsystems
   displayName: Subsystems
@@ -2853,7 +2712,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\timon\Desktop\Coding_files\Gamers Hill\Library\PackageCache\com.unity.modules.uielementsnative@1.0.0
+  resolvedPath: E:\coding\c#\unity\Gamers-Hill\Library\PackageCache\com.unity.modules.uielementsnative@1.0.0
   assetPath: Packages/com.unity.modules.uielementsnative
   name: com.unity.modules.uielementsnative
   displayName: UIElements Native
@@ -2912,7 +2771,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.6
   source: 1
-  resolvedPath: C:\Users\timon\Desktop\Coding_files\Gamers Hill\Library\PackageCache\com.unity.ext.nunit@1.0.6
+  resolvedPath: E:\coding\c#\unity\Gamers-Hill\Library\PackageCache\com.unity.ext.nunit@1.0.6
   assetPath: Packages/com.unity.ext.nunit
   name: com.unity.ext.nunit
   displayName: Custom NUnit
@@ -2967,69 +2826,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.6
     nextVersion: 
-- packageId: com.unity.settings-manager@1.0.3
-  testable: 0
-  isDirectDependency: 0
-  version: 1.0.3
-  source: 1
-  resolvedPath: C:\Users\timon\Desktop\Coding_files\Gamers Hill\Library\PackageCache\com.unity.settings-manager@1.0.3
-  assetPath: Packages/com.unity.settings-manager
-  name: com.unity.settings-manager
-  displayName: Settings Manager
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: 
-  description: A framework for making any serializable field a setting, complete
-    with a pre-built settings interface.
-  status: 4
-  errors: []
-  versions:
-    all:
-    - 0.1.0-preview.4
-    - 0.1.0-preview.8
-    - 1.0.0
-    - 1.0.1
-    - 1.0.2
-    - 1.0.3
-    - 2.0.0
-    - 2.0.1
-    compatible:
-    - 1.0.3
-    - 2.0.0
-    - 2.0.1
-    verified: 1.0.3
-  dependencies: []
-  resolvedDependencies: []
-  keywords: []
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-  hideInEditor: 1
-  isAssetStorePackage: 0
-  datePublishedTicks: 637300096300000000
-  documentationUrl: 
-  hasRepository: 1
-  repository:
-    type: git
-    url: git+https://github.com/Unity-Technologies/com.unity.settings-manager.git
-    revision: 473664ccba1496294b741cf169740a5d54b3d0b6
-    path: 
-  unityLifecycle:
-    version: 1.0.3
-    nextVersion: 
 - packageId: com.unity.editorcoroutines@1.0.0
   testable: 0
   isDirectDependency: 0
   version: 1.0.0
   source: 1
-  resolvedPath: C:\Users\timon\Desktop\Coding_files\Gamers Hill\Library\PackageCache\com.unity.editorcoroutines@1.0.0
+  resolvedPath: E:\coding\c#\unity\Gamers-Hill\Library\PackageCache\com.unity.editorcoroutines@1.0.0
   assetPath: Packages/com.unity.editorcoroutines
   name: com.unity.editorcoroutines
   displayName: Editor Coroutines
@@ -3087,7 +2889,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.1.1
   source: 1
-  resolvedPath: C:\Users\timon\Desktop\Coding_files\Gamers Hill\Library\PackageCache\com.unity.performance.profile-analyzer@1.1.1
+  resolvedPath: E:\coding\c#\unity\Gamers-Hill\Library\PackageCache\com.unity.performance.profile-analyzer@1.1.1
   assetPath: Packages/com.unity.performance.profile-analyzer
   name: com.unity.performance.profile-analyzer
   displayName: Profile Analyzer
@@ -3150,7 +2952,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.1
   source: 1
-  resolvedPath: C:\Users\timon\Desktop\Coding_files\Gamers Hill\Library\PackageCache\com.unity.testtools.codecoverage@1.0.1
+  resolvedPath: E:\coding\c#\unity\Gamers-Hill\Library\PackageCache\com.unity.testtools.codecoverage@1.0.1
   assetPath: Packages/com.unity.testtools.codecoverage
   name: com.unity.testtools.codecoverage
   displayName: Code Coverage
@@ -3159,7 +2961,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: asset
+  type: 
   description: Use this package to export code coverage data and reports from your
     automated tests. Additionally, the Code Coverage package offers a Coverage Recording
     feature which allows capturing coverage data on demand, for manual testing or
@@ -3193,8 +2995,6 @@ m_ResolvedPackages:
     - 1.2.0-exp.5
     - 1.2.0-exp.6
     - 1.2.0-exp.7
-    - 1.2.0
-    - 1.2.1
     compatible:
     - 1.0.1
     - 1.1.0
@@ -3206,8 +3006,6 @@ m_ResolvedPackages:
     - 1.2.0-exp.5
     - 1.2.0-exp.6
     - 1.2.0-exp.7
-    - 1.2.0
-    - 1.2.1
     verified: 1.0.1
   dependencies:
   - name: com.unity.test-framework
@@ -3237,7 +3035,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hideInEditor: 0
+  hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 637594767130000000
   documentationUrl: 
@@ -3250,12 +3048,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.1
     nextVersion: 
-- packageId: com.unity.services.core@1.4.2
+- packageId: com.unity.services.core@1.4.3
   testable: 0
   isDirectDependency: 0
-  version: 1.4.2
+  version: 1.4.3
   source: 1
-  resolvedPath: C:\Users\timon\Desktop\Coding_files\Gamers Hill\Library\PackageCache\com.unity.services.core@1.4.2
+  resolvedPath: E:\coding\c#\unity\Gamers-Hill\Library\PackageCache\com.unity.services.core@1.4.3
   assetPath: Packages/com.unity.services.core
   name: com.unity.services.core
   displayName: Services Core
@@ -3264,7 +3062,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: asset
+  type: 
   description: 'This package defines common components used by multiple Game Service
     packages.
 
@@ -3289,13 +3087,8 @@ m_ResolvedPackages:
     - 1.4.1
     - 1.4.2
     - 1.4.3
-    - 1.5.2
-    - 1.6.0
     compatible:
-    - 1.4.2
     - 1.4.3
-    - 1.5.2
-    - 1.6.0
     verified: 1.4.3
   dependencies:
   - name: com.unity.modules.unitywebrequest
@@ -3319,25 +3112,82 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hideInEditor: 0
+  hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637919618520000000
+  datePublishedTicks: 0
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/operate-services-sdk.git
-    revision: 3964d1641ebec474aa425853985bccbdb89c2a49
+    revision: 145c9bbe93bde4784d4641e172be4ca40a3745fc
     path: 
   unityLifecycle:
-    version: 1.4.2
+    version: 1.4.3
+    nextVersion: 
+- packageId: com.unity.settings-manager@1.0.3
+  testable: 0
+  isDirectDependency: 0
+  version: 1.0.3
+  source: 1
+  resolvedPath: E:\coding\c#\unity\Gamers-Hill\Library\PackageCache\com.unity.settings-manager@1.0.3
+  assetPath: Packages/com.unity.settings-manager
+  name: com.unity.settings-manager
+  displayName: Settings Manager
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: A framework for making any serializable field a setting, complete
+    with a pre-built settings interface.
+  status: 4
+  errors: []
+  versions:
+    all:
+    - 0.1.0-preview.4
+    - 0.1.0-preview.8
+    - 1.0.0
+    - 1.0.1
+    - 1.0.2
+    - 1.0.3
+    - 2.0.0
+    - 2.0.1
+    compatible:
+    - 1.0.3
+    - 2.0.0
+    - 2.0.1
+    verified: 1.0.3
+  dependencies: []
+  resolvedDependencies: []
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 637300096300000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: git+https://github.com/Unity-Technologies/com.unity.settings-manager.git
+    revision: 473664ccba1496294b741cf169740a5d54b3d0b6
+    path: 
+  unityLifecycle:
+    version: 1.0.3
     nextVersion: 
 - packageId: com.unity.nuget.newtonsoft-json@3.0.2
   testable: 0
   isDirectDependency: 0
   version: 3.0.2
   source: 1
-  resolvedPath: C:\Users\timon\Desktop\Coding_files\Gamers Hill\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2
+  resolvedPath: E:\coding\c#\unity\Gamers-Hill\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2
   assetPath: Packages/com.unity.nuget.newtonsoft-json
   name: com.unity.nuget.newtonsoft-json
   displayName: Newtonsoft Json

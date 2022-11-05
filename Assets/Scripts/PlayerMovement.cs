@@ -11,9 +11,11 @@ public class PlayerMovement : MonoBehaviour
     public CharacterController controller;
     public new Camera camera;
     public StatsManager statsManager;
+    public Entity entity;
     [Space(10)]
     [Header("Movement")]
-    public float dpi = 100; 
+    public float gravity = -9.81f;
+    public float dpi = 5; 
     public float moveSpeed = 5f;
    
     // Start is called before the first frame update
@@ -38,6 +40,8 @@ public class PlayerMovement : MonoBehaviour
         _xRotation -= mouseY;
         _xRotation = Mathf.Clamp(_xRotation, -90f, 90f);
         Vector3 move = transform.right * moveX + transform.forward * moveY;
+        
+        entity.rb.AddForce(0,gravity,0);
         
         controller.Move(move * (Time.deltaTime * moveSpeed * statsManager.speedMultiplier));
         controller.transform.Rotate(Vector3.up * (mouseX));

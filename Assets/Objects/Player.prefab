@@ -95,8 +95,9 @@ GameObject:
   - component: {fileID: 8191901517666965988}
   - component: {fileID: 8851602855330295160}
   - component: {fileID: 2234255222572961216}
-  - component: {fileID: 7732710066880662649}
-  - component: {fileID: 8856692688771898315}
+  - component: {fileID: 4958651486307676983}
+  - component: {fileID: 3450591381309909606}
+  - component: {fileID: 7482278071160286045}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -134,7 +135,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controller: {fileID: 2234255222572961216}
   camera: {fileID: 3238849028365805032}
-  statsManager: {fileID: 7732710066880662649}
+  statsManager: {fileID: 7482278071160286045}
+  entity: {fileID: 3450591381309909606}
   dpi: 200
   moveSpeed: 5
 --- !u!143 &2234255222572961216
@@ -155,7 +157,38 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &7732710066880662649
+--- !u!54 &4958651486307676983
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4296214379948074158}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &3450591381309909606
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4296214379948074158}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25471a7dd2c94c2f9a8728f76f6d56ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rb: {fileID: 4958651486307676983}
+  statsManager: {fileID: 7482278071160286045}
+  isPlayer: 0
+--- !u!114 &7482278071160286045
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -172,19 +205,3 @@ MonoBehaviour:
   criticalDamageMultiplier: 2
   maxHealth: 100
   currentHealth: 100
---- !u!54 &8856692688771898315
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4296214379948074158}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
