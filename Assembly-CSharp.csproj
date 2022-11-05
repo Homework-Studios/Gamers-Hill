@@ -695,11 +695,17 @@
      <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
      <HintPath>C:\Users\timon\Desktop\Coding_files\Gamers Hill\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
      </Reference>
+     <Reference Include="Unity.ProBuilder.AddOns.Editor">
+     <HintPath>C:\Users\timon\Desktop\Coding_files\Gamers Hill\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.ProBuilder">
+     <HintPath>C:\Users\timon\Desktop\Coding_files\Gamers Hill\Library\ScriptAssemblies\Unity.ProBuilder.dll</HintPath>
+     </Reference>
      <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
      <HintPath>C:\Users\timon\Desktop\Coding_files\Gamers Hill\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.VisualScripting.Flow">
-     <HintPath>C:\Users\timon\Desktop\Coding_files\Gamers Hill\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
+     <Reference Include="Unity.ProBuilder.Editor">
+     <HintPath>C:\Users\timon\Desktop\Coding_files\Gamers Hill\Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.UI">
      <HintPath>C:\Users\timon\Desktop\Coding_files\Gamers Hill\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
@@ -709,6 +715,9 @@
      </Reference>
      <Reference Include="Unity.Rider.Editor">
      <HintPath>C:\Users\timon\Desktop\Coding_files\Gamers Hill\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.Flow">
+     <HintPath>C:\Users\timon\Desktop\Coding_files\Gamers Hill\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.UI">
      <HintPath>C:\Users\timon\Desktop\Coding_files\Gamers Hill\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
@@ -725,6 +734,9 @@
      <Reference Include="Unity.Services.Core.Analytics">
      <HintPath>C:\Users\timon\Desktop\Coding_files\Gamers Hill\Library\ScriptAssemblies\Unity.Services.Core.Analytics.dll</HintPath>
      </Reference>
+     <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
+     <HintPath>C:\Users\timon\Desktop\Coding_files\Gamers Hill\Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
+     </Reference>
      <Reference Include="Unity.VisualScripting.Shared.Editor">
      <HintPath>C:\Users\timon\Desktop\Coding_files\Gamers Hill\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
      </Reference>
@@ -739,18 +751,6 @@
      </Reference>
      <Reference Include="Unity.VisualScripting.State">
      <HintPath>C:\Users\timon\Desktop\Coding_files\Gamers Hill\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.ProBuilder">
-     <HintPath>C:\Users\timon\Desktop\Coding_files\Gamers Hill\Library\ScriptAssemblies\Unity.ProBuilder.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.ProBuilder.AddOns.Editor">
-     <HintPath>C:\Users\timon\Desktop\Coding_files\Gamers Hill\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.ProBuilder.Editor">
-     <HintPath>C:\Users\timon\Desktop\Coding_files\Gamers Hill\Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
-     <HintPath>C:\Users\timon\Desktop\Coding_files\Gamers Hill\Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
      </Reference>
   </ItemGroup>
   <ItemGroup>
