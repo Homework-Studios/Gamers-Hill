@@ -1,4 +1,5 @@
-﻿using Unity.VisualScripting;
+﻿using System;
+using Unity.VisualScripting;
 using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 
@@ -10,9 +11,17 @@ public class Weapon : MonoBehaviour
     public float reloadTime = 2f;
     public float Maxbounces = 0;
     public float maxAmmo = 6;
-    [Header("Render")] public GameObject shootPoint;
-
+    [Header("Render")]
+    public GameObject shootPoint;
+    
+    
     float ammo;
+
+    private void Start()
+    {
+        //move weapon close to camera
+        transform.position = Camera.allCameras[0].transform.position + Camera.allCameras[0].transform.forward + Camera.allCameras[0].transform.right;
+    }
 
     public void shoot(Camera camera)
     {
