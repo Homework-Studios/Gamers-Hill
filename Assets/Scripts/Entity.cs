@@ -1,5 +1,6 @@
 ﻿using System;
 using UnityEngine;
+using Random = System.Random;
 
 public class Entity : MonoBehaviour
 {
@@ -17,7 +18,8 @@ public class Entity : MonoBehaviour
         bool dead = statsManager.damage(damage);
         if (dead)
         {
-            rb.AddForce(0,20,0, ForceMode.Impulse);
+            var r = new Random();
+            rb.AddForce(new Vector3(r.Next(-10,10),r.Next(-10,10),r.Next(-10,10)), ForceMode.Impulse);
             //TODO: Add particle effect
             if (isPlayer)
             {
@@ -25,7 +27,7 @@ public class Entity : MonoBehaviour
             }
             else
             {
-                Destroy(transform.parent.gameObject);
+               
             }
            
         }
