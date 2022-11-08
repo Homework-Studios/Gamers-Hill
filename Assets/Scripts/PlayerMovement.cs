@@ -52,6 +52,7 @@ public class PlayerMovement : MonoBehaviour
        
         Quaternion rotation = _controller.transform.rotation.normalized;
         camera.transform.rotation = (Quaternion.Euler(_xRotation, rotation.eulerAngles.y, rotation.eulerAngles.z));
+        
 
        
 

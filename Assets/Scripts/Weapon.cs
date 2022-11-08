@@ -2,44 +2,53 @@
 using Unity.VisualScripting;
 using UnityEditor.Experimental.GraphView;
 using UnityEngine;
+using UnityEngine.Serialization;
+using Random = UnityEngine.Random;
 
 public class Weapon : MonoBehaviour
 {
     [Header("Stats")] public float damage;
     public float range = 100f;
     public float fireRate = 0.5f;
-    public float reloadTime = 2f;
-    public float Maxbounces = 0;
+    public float reloadTime = 2f; 
+    public float maxBounces = 0;
     public float maxAmmo = 6;
     [Header("Render")]
     public GameObject shootPoint;
+    public Entity owner;
+        
     
-    
-    float ammo;
+    float _ammo;
 
     private void Start()
     {
         //move weapon close to camera
         transform.position = Camera.allCameras[0].transform.position + Camera.allCameras[0].transform.forward + Camera.allCameras[0].transform.right;
+        owner = Camera.allCameras[0].GetComponentInParent<Camera>().GetComponentInParent<Entity>();
+        owner.weapon = this;
     }
 
-    public void shoot(Camera camera)
+    public void Shoot(Camera camera)
     {
-        float bounces = Maxbounces;
+       //TODO: screenshake
+        
+        float bounces = maxBounces;
         if (Physics.Raycast(camera.transform.position, camera.transform.forward, out RaycastHit hit, range))
         {
+            
             Collider collider = hit.collider;
             if (collider != null)
             {
                 Entity entity = hit.collider.GetComponent<Entity>();
                 if (entity != null)
                 {
-                    entity.damage(damage);
+                    owner.damageEntity(entity, damage, hit.point);
                     bounces = 0;
                 }
             }
             Debug.DrawLine(shootPoint.transform.position, hit.point, Color.yellow, 10f);
-                Vector3 direction = camera.transform.forward;
+            
+            Vector3 direction = camera.transform.forward;
                 for (int i = 0; i < bounces; i++)
                 {
                     if (hit.collider != null)
@@ -68,22 +77,42 @@ public class Weapon : MonoBehaviour
 
         }
     }
+    
+    bool _pickedUp;
 
-bool _buttonClicked;
-
-    void FixedUpdate()
+    public void TogglePickup()
     {
-        if (Input.GetMouseButtonDown(1))
+        if (_pickedUp)
         {
-            if (!_buttonClicked)
-            {
-                shoot(Camera.allCameras[0]);
-                _buttonClicked = true;
-            }
+            PickUp();
         }
         else
         {
-            _buttonClicked = false;
+            Drop();
+        }
+    }
+    
+    public void PickUp()
+    {
+        _pickedUp = true;
+        transform.parent = Camera.allCameras[0].transform;
+        transform.localPosition = new Vector3(0.5f, -0.5f, 1f);
+        transform.localRotation = Quaternion.Euler(0, 0, 0);
+    }
+    
+    public void Drop()
+    {
+        _pickedUp = false;
+        transform.parent = null;
+    }
+    
+    
+    void Update()
+    {
+        if (Input.GetMouseButtonDown(1))
+        {
+            Shoot(Camera.allCameras[0]);
+         
         }
     }
 
