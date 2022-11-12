@@ -16,6 +16,8 @@ public class Weapon : MonoBehaviour
     [Header("Render")]
     public GameObject shootPoint;
     public Entity owner;
+
+    public Quaternion forward;
         
     
     float _ammo;
@@ -24,6 +26,7 @@ public class Weapon : MonoBehaviour
     {
         owner = Camera.allCameras[0].GetComponentInParent<Camera>().GetComponentInParent<Entity>();
         owner.weapon = this;
+        forward = owner.weapon.transform.rotation;
     }
 
     public void Shoot(Camera camera)
@@ -33,10 +36,6 @@ public class Weapon : MonoBehaviour
         float bounces = maxBounces;
         if (Physics.Raycast(camera.transform.position, camera.transform.forward, out RaycastHit hit, range))
         {
-            
-            // Debug the raycast
-            Debug.DrawRay(camera.transform.position, camera.transform.forward * hit.distance, Color.yellow);
-            
             Collider collider = hit.collider;
             if (collider != null)
             {
@@ -113,7 +112,15 @@ public class Weapon : MonoBehaviour
         if (Input.GetMouseButtonDown(1))
         {
             Shoot(Camera.allCameras[0]);
-         
+        }
+        
+        // Raycast and rotate towards the hit point
+        if (Physics.Raycast(Camera.allCameras[0].transform.position, Camera.allCameras[0].transform.forward, out RaycastHit hit, range))
+        {
+            // Rotate towards the hit point but take into account that the weapon has default rotation
+            // and use a lerped rotation to make it smooth
+            Transform weaponPointer = transform.GetChild(0);
+            transform.rotation = Quaternion.Lerp(weaponPointer.transform.rotation, Quaternion.LookRotation(hit.point - weaponPointer.transform.position) * forward, 0.1f);
         }
     }
 
