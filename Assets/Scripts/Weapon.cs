@@ -113,7 +113,7 @@ public class Weapon : MonoBehaviour
         {
             Shoot(Camera.allCameras[0]);
         }
-        
+
         // Raycast and rotate towards the hit point
         if (Physics.Raycast(Camera.allCameras[0].transform.position, Camera.allCameras[0].transform.forward, out RaycastHit hit, range))
         {
