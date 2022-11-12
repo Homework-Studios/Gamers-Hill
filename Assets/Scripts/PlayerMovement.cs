@@ -25,8 +25,8 @@ public class PlayerMovement : MonoBehaviour
     void Start()
     {
         _controller = GetComponent<CharacterController>();
-     Cursor.lockState = CursorLockMode.Locked;
-     Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
     }
     
 
@@ -40,9 +40,8 @@ public class PlayerMovement : MonoBehaviour
         float mouseX = Input.GetAxis("Mouse X") * dpi * Time.deltaTime;
         float mouseY = Input.GetAxis("Mouse Y") * dpi * Time.deltaTime;
         
-        _controller.SimpleMove(new Vector3(0, gravity, 0));
+        _controller.Move(new Vector3(0, gravity, 0));
 
-      
         _xRotation -= mouseY;
         _xRotation = Mathf.Clamp(_xRotation, -90f, 90f);
         Vector3 move = transform.right * moveX + transform.forward * moveY;
@@ -52,9 +51,6 @@ public class PlayerMovement : MonoBehaviour
        
         Quaternion rotation = _controller.transform.rotation.normalized;
         camera.transform.rotation = (Quaternion.Euler(_xRotation, rotation.eulerAngles.y, rotation.eulerAngles.z));
-        
-
-       
 
     }
 

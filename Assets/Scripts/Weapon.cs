@@ -22,8 +22,6 @@ public class Weapon : MonoBehaviour
 
     private void Start()
     {
-        //move weapon close to camera
-        transform.position = Camera.allCameras[0].transform.position + Camera.allCameras[0].transform.forward + Camera.allCameras[0].transform.right;
         owner = Camera.allCameras[0].GetComponentInParent<Camera>().GetComponentInParent<Entity>();
         owner.weapon = this;
     }
@@ -35,6 +33,9 @@ public class Weapon : MonoBehaviour
         float bounces = maxBounces;
         if (Physics.Raycast(camera.transform.position, camera.transform.forward, out RaycastHit hit, range))
         {
+            
+            // Debug the raycast
+            Debug.DrawRay(camera.transform.position, camera.transform.forward * hit.distance, Color.yellow);
             
             Collider collider = hit.collider;
             if (collider != null)
