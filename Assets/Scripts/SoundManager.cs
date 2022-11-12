@@ -35,18 +35,16 @@ public class SoundManager : MonoBehaviour
     void Update()
     {
         Transform player = GameObject.Find("Player").transform;
-        int maxSteps = 100;
+        int maxSteps = 30;
         float sumDistance = 0;
         for (int i = 0; i < maxSteps; i++)
         {
             foreach (var direction in GetSphereDirections(maxSteps))
             {
-                Debug.DrawRay(player.position, direction, Color.red);
                 RaycastHit hit;
                 if (Physics.Raycast(player.position, direction, out hit))
                 {
                     sumDistance += hit.distance;
-                    Debug.Log(player.transform);
                 }
             }
         }
@@ -54,7 +52,10 @@ public class SoundManager : MonoBehaviour
         // Calculate the average distance
         float averageDistance = sumDistance / maxSteps;
         
-        // Print the average distance
-        Debug.Log(averageDistance);
+        // Set the reverb zone's reverb amount based on the average distance
+        AudioReverbZone reverbZone = GameObject.Find("ReverbZone").GetComponent<AudioReverbZone>();
+        reverbZone.reverbPreset = AudioReverbPreset.Cave;
+        reverbZone.minDistance = 0;
+        reverbZone.maxDistance = averageDistance / 10;
     }
 }

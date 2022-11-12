@@ -120,7 +120,7 @@ public class Weapon : MonoBehaviour
             // Rotate towards the hit point but take into account that the weapon has default rotation
             // and use a lerped rotation to make it smooth
             Transform weaponPointer = transform.GetChild(0);
-            transform.rotation = Quaternion.Lerp(weaponPointer.transform.rotation, Quaternion.LookRotation(hit.point - weaponPointer.transform.position) * forward, 0.1f);
+            transform.rotation = Quaternion.Lerp(weaponPointer.transform.rotation, Quaternion.LookRotation(hit.point - weaponPointer.transform.position) * forward, 0.01f);
         }
     }
 

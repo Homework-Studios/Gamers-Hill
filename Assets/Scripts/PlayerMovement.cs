@@ -19,6 +19,7 @@ public class PlayerMovement : MonoBehaviour
     public float dpi = 100; 
     public float moveSpeed = 5f;
     public float gravity = -9.81f;
+    public float jumpVelocity = 0f;
 
     private CharacterController _controller;
     // Start is called before the first frame update
@@ -39,7 +40,7 @@ public class PlayerMovement : MonoBehaviour
         
         float mouseX = Input.GetAxis("Mouse X") * dpi * Time.deltaTime;
         float mouseY = Input.GetAxis("Mouse Y") * dpi * Time.deltaTime;
-        
+
         _controller.Move(new Vector3(0, gravity, 0));
 
         _xRotation -= mouseY;
