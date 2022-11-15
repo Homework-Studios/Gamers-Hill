@@ -34,6 +34,7 @@ public class Entity : MonoBehaviour
         if (dead)
         {
             var r = new Random();
+            // Calculate crit point
             rb.AddForce(new Vector3(r.Next(-10,10),r.Next(-10,10),r.Next(-10,10)), ForceMode.Impulse);
             //TODO: Add particle effect
             if (isPlayer)
@@ -41,7 +42,7 @@ public class Entity : MonoBehaviour
                 //TODO: Respawn player or so ( show press ALT + F + 4 to respawn)
             }
         }
-      UpdateHealthBar();
+        UpdateHealthBar();
         return dead;
     }
     
