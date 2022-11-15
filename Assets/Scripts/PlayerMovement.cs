@@ -41,7 +41,7 @@ public class PlayerMovement : MonoBehaviour
         float mouseX = Input.GetAxis("Mouse X") * dpi * Time.deltaTime;
         float mouseY = Input.GetAxis("Mouse Y") * dpi * Time.deltaTime;
 
-        _controller.Move(new Vector3(0, gravity, 0));
+        _controller.Move(new Vector3(0, gravity * Time.deltaTime, 0));
 
         _xRotation -= mouseY;
         _xRotation = Mathf.Clamp(_xRotation, -90f, 90f);
