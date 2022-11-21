@@ -47,14 +47,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c40e0da30154309a8b2012a514e41ef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 20
+  damage: 10
   range: 100
   fireRate: 0.5
   reloadTime: 2
-  Maxbounces: 0
+  maxBounces: 0
   maxAmmo: 6
   shootPoint: {fileID: 4494392883799932308}
   owner: {fileID: 0}
+  forward: {x: 0, y: 0, z: 0, w: 0}
 --- !u!33 &3474519700176438397
 MeshFilter:
   m_ObjectHideFlags: 0
